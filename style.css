@@ -1,0 +1,51 @@
+/*Universal Selectors*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Tag Selectors*/
+body {
+    background-color:gray;
+    color: #fff;
+}
+button {
+    width: 200px;
+    margin-right: 30px;
+    
+}
+h1 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/*Class Selectors*/
+.border {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+    width: 600px;
+    height: 200px;
+    margin-left: 300px;
+    margin-right: 100px;
+    border: dashed;
+    margin-top: 70px;
+  
+}
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    border: solid;
+    height: 600px;
+    width: 1000px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+ 
+}
+/*Id Selectors*/
+
+
