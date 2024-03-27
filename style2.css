@@ -1,0 +1,24 @@
+/*Id Selectors*/
+#countlabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btncontainer {
+    text-align: center;
+}
+/*Class Selectors*/
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.buttons:hover {
+    background-color: bisque;
+    transition: 0.2ms;
+}

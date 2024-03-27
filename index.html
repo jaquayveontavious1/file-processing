@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kanyingi">
-    <meta name="description" content="A File Processing Website">
     <title>File Processing Website</title>
-    <!--Link to Style CSS-->
+    <meta name="author" content="Tiffany Kanyingi">
+    <meta name="description" content="a File Processing Website">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Hero's Section-->
-    <section>
-        <div class="container">
-            <div class="card">
-               <h1>File Uploader Javascript</h1>
-                <div class="border">
-                    <img src="cloud_upload_FILL0_wght400_GRAD0_opsz24.svg" alt="Upload" width="100" height="100">
-                    <button type="button" class="Browse">Browse Files to Upload</button>
-                </div>
+    <!-- <input type="file">
+    <div id="preview">
+        <button class="process">Process File</button>
+    </div>
+    -->
+    <div class="container">
+        <h1>File Uploader Javascript</h1>
+        <div class="content">
+            <div class="bordered">
+                <img src="cloud_upload_FILL0_wght400_GRAD0_opsz24.svg" alt="Cloud Upload" width="200" height="200"
+                class="image">
+            
+                <input type="file" value="Browse and Upload Files" id="inputfile">
             </div>
+            <button id="process">Process File</button>
         </div>
-
-    </section>
+        <div id="displayResult"></div>
+    </div>
     
+    <script src="file.js"></script>
 </body>
 </html>
